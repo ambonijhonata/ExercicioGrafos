@@ -19,8 +19,12 @@ public class Vertice {
 
 	public Integer getValor() {
 		return valor;
+	}	
+	
+	public List<Aresta> retornaListaAjascencia(){
+		return adj;
 	}
-
+	
 	@Override
 	public String toString() {
 		return String.valueOf(valor);
